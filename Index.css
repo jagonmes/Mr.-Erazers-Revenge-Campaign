@@ -1,0 +1,60 @@
+/*importacion fuente tipográfica a usar (incluir dentro de carpeta fuentes)*/
+@font-face{
+   font-family: KGMidnightMemories;
+   src:url("Fonts/KGMidnightMemories.ttf");
+}
+
+.full-page{
+	font-family: KGMidnightMemories;
+	font-size: 150%;
+	background-color: white;
+	max-width: 1300;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*pone en el vídeo que .clearfix sirve para arreglar los cajetines, pero ns si sirve en este caso*/
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.banner{
+    width: auto;
+}
+
+.header{
+    background-color: white;
+}
+
+.body{
+ padding-top: 1%;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+}
+.form{
+    
+}
+
+.donaciones{
+}
+
+.card-radio{
+    margin-bottom: 5%;
+}
+
+.card-input+.card:hover {
+    cursor: pointer;
+}
+
+.card-input:checked+.card {
+    border: 2px solid blue;
+}
