@@ -31,9 +31,6 @@
                     <a class="nav-link" href="#" onclick="loadFAQ()" id="navFAQ">Preguntas Frecuentes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" onclick="loadComments()" id="navComments">Comentarios</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" onclick="loadHelp()" id="navHelp">Apoyanos</a>
                 </li>
             </ul>
@@ -41,32 +38,34 @@
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 mainBody" id="mainContainer">
-
-                <!-- Modal -->
-                <div class="modal fade" id="disclaimer" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h2 class="modal-title">Disclaimer</h2>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                ATENCIÓN: Esta página simula la campaña de microfinanciación
-                                de un videojuego ficticio y no representa un producto real.
-                                Práctica de Multimedia, 1º GDDV - Curso 21/22 (Quintana), URJC.
-                                La URJC no se hace responsable del contenido expuesto por el autor.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                
 
             </div>
             <div class="col-2"></div>
-            <button type="button" id="btn1" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disclaimer"
-                style="visibility: hidden;"></button>
         </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="disclaimer" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Disclaimer</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ATENCIÓN: Esta página simula la campaña de microfinanciación
+                        de un videojuego ficticio y no representa un producto real.
+                        Práctica de Multimedia, 1º GDDV - Curso 21/22 (Quintana), URJC.
+                        La URJC no se hace responsable del contenido expuesto por el autor.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" id="btn1" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disclaimer"
+            style="visibility: hidden;"></button>
+
+        <!--Disqus-->
         <div id="disqus_thread"></div>
         <script>
             /**
@@ -85,8 +84,8 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
-                Disqus.</a></noscript>
+
+        <!--FOOTER-->
         <div class="row footer fixed-bottom">
             <h1>Meter cosas del footer aquí</h1>
         </div>
