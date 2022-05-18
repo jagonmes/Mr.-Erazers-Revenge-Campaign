@@ -4,14 +4,18 @@
    src:url("Fonts/KGMidnightMemories.ttf");
 }
 
+
 .full-page{
 	font-family: KGMidnightMemories;
-	font-size: 150%;
+
 	background-color: white;
 	max-width: 1300;
+    font-size: 220%;
 	margin-right: auto;
 	margin-left: auto;
 }
+h1{font-size: 200%;}
+h2{font-size: 150%;}
 
 /*pone en el vídeo que .clearfix sirve para arreglar los cajetines, pero ns si sirve en este caso*/
 .clearfix {
@@ -32,9 +36,10 @@
     background-color: white;
 }
 
-.body{
+.mainBody{
  padding-top: 1%;
 }
+
 
 .footer{
     text-align: center;
