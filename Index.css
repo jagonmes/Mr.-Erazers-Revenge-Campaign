@@ -7,7 +7,6 @@
 
 .full-page{
 	font-family: KGMidnightMemories;
-
 	background-color: white;
 	max-width: 1300;
     font-size: 220%;
@@ -46,12 +45,11 @@ h2{font-size: 150%;}
     text-align: center;
     background-color: white;
 }
+
 .form{
-    
+    text-align: center;
 }
 
-.donaciones{
-}
 
 .card-radio{
     margin-bottom: 5%;
@@ -63,4 +61,10 @@ h2{font-size: 150%;}
 
 .card-input:checked+.card {
     border: 2px solid blue;
+}
+.card{
+    position: relative;
+    right: 58%;
+    width: 200%;
+    text-align: center;
 }
