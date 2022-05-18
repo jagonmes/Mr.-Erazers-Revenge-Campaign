@@ -12,7 +12,7 @@ function loadCampaign() {
   function loadFAQ() {
     document.getElementById('navCampaign').classList.remove("active");
     document.getElementById('navFAQ').classList.add("active");
-    document.getElementById('navCommets').classList.remove("active");
+    document.getElementById('navComments').classList.remove("active");
     document.getElementById('navHelp').classList.remove("active");
     fetch('./pages/FAQ.html')
   .then(response=> response.text())
