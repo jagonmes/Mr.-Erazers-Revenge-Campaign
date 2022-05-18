@@ -1,4 +1,6 @@
-loadCampaign();
+
+//loadCampaign();
+
 
 function loadCampaign() {
     document.getElementById('navCampaign').classList.add("active");
@@ -36,3 +38,6 @@ function loadCampaign() {
   .then(response=> response.text())
   .then(text=> document.getElementById('mainContainer').innerHTML = text);
   }
+
+  document.getElementById("btn1").click();
+  
