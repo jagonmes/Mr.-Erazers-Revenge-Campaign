@@ -1,5 +1,5 @@
 
-//loadCampaign();
+loadCampaign();
 
 
 function loadCampaign() {
