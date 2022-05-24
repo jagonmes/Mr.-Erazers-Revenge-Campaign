@@ -34,8 +34,8 @@ h2{font-size: 150%;}
 .nav-item{
 	font-family: "FuentePropiaMultimedia Regular";
 	font-size: 35px;
-	margin-top: 5%;
-	margin-bottom: 4%;
+	margin-top: 1.2%;
+	margin-bottom: 1%;
 	color: #0D9337; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 	background-image: url("imagenes/positverde.png");
 	background-size: 100% 100%;
@@ -51,8 +51,8 @@ nav-item:focus{
 	font-size: 100px;
 	font-weight: bold;
 	position: relative;
-	margin-top: 8%;
-	margin-bottom: 10%;
+	margin-top: 1%;
+	margin-bottom: 1.2%;
 	background-image: url("imagenes/positverde.png");
 	background-size: 100% 100%;
 }
