@@ -45,56 +45,60 @@
             <div class="col-8 mainBody" id="mainContainer">
 
 
+                
+
+
+
+                </div>
+                <div class="col-2"></div>
             </div>
-            <div class="col-2"></div>
-        </div>
 
 
-        <!-- Modal -->
-        <div class="modal fade" id="disclaimer" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">Disclaimer</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        ATENCIÓN: Esta página simula la campaña de microfinanciación
-                        de un videojuego ficticio y no representa un producto real.
-                        Práctica de Multimedia, 1º GDDV - Curso 21/22 (Quintana), URJC.
-                        La URJC no se hace responsable del contenido expuesto por el autor.
+            <!-- Modal -->
+            <div class="modal fade" id="disclaimer" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title">Disclaimer</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ATENCIÓN: Esta página simula la campaña de microfinanciación
+                            de un videojuego ficticio y no representa un producto real.
+                            Práctica de Multimedia, 1º GDDV - Curso 21/22 (Quintana), URJC.
+                            La URJC no se hace responsable del contenido expuesto por el autor.
+                        </div>
                     </div>
                 </div>
             </div>
+            <button type="button" id="btn1" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disclaimer"
+                style="visibility: hidden;"></button>
+
+            <!--Disqus-->
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+                var disqus_config = function () {
+                    this.page.url = "https://jagonmes.github.io/Mr.-Erazers-Revenge-Campaign/";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = "https://jagonmes.github.io/Mr.-Erazers-Revenge-Campaign/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://mrerazersrevenge.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+
+            <!--FOOTER-->
+            <div class="row footer fixed-bottom">
+                <h1>Meter cosas del footer aquí</h1>
+            </div>
         </div>
-        <button type="button" id="btn1" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disclaimer"
-            style="visibility: hidden;"></button>
-
-        <!--Disqus-->
-        <div id="disqus_thread"></div>
-        <script>
-            /**
-            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-
-            var disqus_config = function () {
-                this.page.url = "https://jagonmes.github.io/Mr.-Erazers-Revenge-Campaign/";  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = "https://jagonmes.github.io/Mr.-Erazers-Revenge-Campaign/"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-
-            (function () { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://mrerazersrevenge.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-
-        <!--FOOTER-->
-        <div class="row footer fixed-bottom">
-            <h1>Meter cosas del footer aquí</h1>
-        </div>
-    </div>
 </body>
 
 <script src="./index.js"></script>
