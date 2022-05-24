@@ -1,6 +1,6 @@
 
 loadCampaign();
-
+loadDisclaimer();
 
 function loadCampaign() {
     document.getElementById('navCampaign').classList.add("active");
@@ -27,5 +27,8 @@ function loadCampaign() {
   .then(text=> document.getElementById('mainContainer').innerHTML = text);
   }
 
-  document.getElementById("btn1").click();
+  function loadDisclaimer(){
+    document.getElementById("btn1").click();
+  }
+  
   
