@@ -160,6 +160,9 @@ nav-item:focus{
     width: 200%;
     text-align: center;
 }
+.card-body{
+	max-width: 744px
+}
 
 .footer{
 	font-family: "FuentePropiaMultimedia Regular";
