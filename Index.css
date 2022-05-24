@@ -120,6 +120,7 @@ nav-item:focus{
 }
 
 .banner{
+	max-height: 500px;
     width: auto;
 }
 
