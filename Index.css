@@ -156,12 +156,9 @@ nav-item:focus{
 }
 .card{
     position: relative;
-    right: 58%;
-    width: 200%;
+    right: 30%;
+    width: 150%;
     text-align: center;
-}
-.card-body{
-
 }
 
 .footer{
