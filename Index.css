@@ -1,30 +1,122 @@
 /*importacion fuente tipográfica a usar (incluir dentro de carpeta fuentes)*/
 @font-face{
-   font-family: KGMidnightMemories;
-   src:url("Fonts/KGMidnightMemories.ttf");
+   font-family: FuentePropiaMultimedia Regular;
+   src:url("Fonts/FuentePropiaMultimedia-Regular.ttf");
 }
 
+@font-face{
+   font-family: Fuentepropiamultimedianums Regular;
+   src:url("Fonts/Fuentepropiamultimedianums-Regular.ttf");
+}
+
+@font-face{
+   font-family: Timeless;
+   src:url("Fonts/Timeless.ttf");
+}
+
+@font-face{
+   font-family: old stamper;
+   src:url("Fonts/old_stamper.ttf");
+}
 
 .full-page{
-	font-family: KGMidnightMemories;
+	font-family: Timeless;
+	/*background-image: url("imagenes/positverde.png");*/
 	background-color: white;
 	max-width: 1300;
     font-size: 220%;
 	margin-right: auto;
 	margin-left: auto;
+	overflow: hidden;
 }
 h1{font-size: 200%;}
 h2{font-size: 150%;}
 
-/*pone en el vídeo que .clearfix sirve para arreglar los cajetines, pero ns si sirve en este caso*/
-.clearfix {
-  overflow: auto;
+.nav-item{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-size: 35px;
+	margin-top: 5%;
+	margin-bottom: 4%;
+	color: #0D9337; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	background-image: url("imagenes/positverde.png");
+	background-size: 100% 100%;
+	/*Mirar para que sea siempre visible el posit*/
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+nav-item:focus{
+	color:#000000;
+}
+
+.tituloJuego{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-size: 100px;
+	font-weight: bold;
+	position: relative;
+	margin-top: 8%;
+	margin-bottom: 10%;
+	background-image: url("imagenes/positverde.png");
+	background-size: 100% 100%;
+}
+
+.mr{
+	font-size: 120px;
+}
+
+.revenge{
+	font-family: "old stamper";
+	font-size: 115px;
+	color: #6B3711;
+}
+
+.titulis{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-weight: bold;
+	font-size: 65px;
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+
+.apoya{
+	font-family: "old stamper";
+	font-size: 115px;
+	margin-top: 8%;
+	margin-bottom: 10%;
+	background-image: url("imagenes/positverde.png");
+	background-size: 100% 100%;
+}
+
+.card-title{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-weight: bold;
+	font-size: 65px;
+}
+
+.numHelp{
+	font-family: "Fuentepropiamultimedianums Regular";
+	font-weight: bold;
+	font-size: 65px;
+}
+
+.faq{
+	font-family: "old stamper";
+	font-size: 115px;
+	margin-top: 8%;
+	margin-bottom: 10%;
+	background-image: url("imagenes/positverde.png");
+	background-size: 100% 100%;
+}
+
+/* editar esto prq queda muy en negrita. Tal vez usar fuente creada o dejar fuente general !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.preg{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-weight: bold;
+	font-size: 65px;
+}
+
+.num{
+	font-family: "Fuentepropiamultimedianums Regular";
+	font-weight: bold;
+	font-size: 65px;
 }
 
 .banner{
@@ -67,4 +159,10 @@ h2{font-size: 150%;}
     right: 58%;
     width: 200%;
     text-align: center;
+}
+
+.footer{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-size: 20px;
+	background-color: #EEE3D8;
 }
