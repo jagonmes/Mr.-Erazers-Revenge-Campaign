@@ -78,8 +78,8 @@ nav-item:focus{
 .apoya{
 	font-family: "old stamper";
 	font-size: 115px;
-	margin-top: 8%;
-	margin-bottom: 10%;
+	margin-top: 1%;
+	margin-bottom: 1.2%;
 	background-image: url("imagenes/positverde.png");
 	background-size: 100% 100%;
 }
@@ -99,8 +99,8 @@ nav-item:focus{
 .faq{
 	font-family: "old stamper";
 	font-size: 115px;
-	margin-top: 8%;
-	margin-bottom: 10%;
+	margin-top: 1%;
+	margin-bottom: 1.2%;
 	background-image: url("imagenes/positverde.png");
 	background-size: 100% 100%;
 }
