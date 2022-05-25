@@ -19,14 +19,33 @@
    src:url("Fonts/old_stamper.ttf");
 }
 
+.top-banner{
+	width: 100;
+	height: 240px;
+	padding-top:10px;
+	background-image: url("imagenes/Bannerv2.jpg");
+	background-size: cover;
+	
+}
+
+#logo{
+	height: 60%;
+	width: 13%;
+	float: right;
+	margin-right: 320px;
+	max-width: 200px;
+	
+}
+
 .full-page{
 	font-family: Timeless;
-	/*background-image: url("imagenes/positverde.png");*/
+	background-image: url("imagenes/lineas (3).png");
 	background-color: white;
 	max-width: 1300;
     font-size: 220%;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: justify;
 }
 h1{font-size: 200%;}
 h2{font-size: 150%;}
@@ -36,10 +55,41 @@ h2{font-size: 150%;}
 	font-size: 35px;
 	margin-top: 1.2%;
 	margin-bottom: 1%;
-	color: #0D9337; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-	background-image: url("imagenes/positverde.png");
+	background-image: url("imagenes/positsB.png");
 	background-size: 100% 100%;
 	/*Mirar para que sea siempre visible el posit*/
+}
+
+.textospecial{
+	font-family: FuentePropiaMultimedia Regular;
+	font-weight: bold;
+}
+
+.numSpecial{
+	font-family: Fuentepropiamultimedianums Regular;
+	font-weight: bold;
+}
+
+.textospecialLinea{
+	font-family: FuentePropiaMultimedia Regular;
+	font-weight: bold;
+	text-decoration-line: underline;
+}
+
+.imgPersonajes{
+	height: 5%;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+
+.imgArte{
+	height:auto;
+	width: 100%;
+}
+
+.nivelImg{
+	font-family: "FuentePropiaMultimedia Regular";
+	font-weight: normal;
 }
 
 nav-item:focus{
@@ -53,7 +103,7 @@ nav-item:focus{
 	position: relative;
 	margin-top: 1%;
 	margin-bottom: 1.2%;
-	background-image: url("imagenes/positverde.png");
+	background-image: url("imagenes/POSITg2.png");
 	background-size: 100% 100%;
 }
 
@@ -64,7 +114,7 @@ nav-item:focus{
 .revenge{
 	font-family: "old stamper";
 	font-size: 115px;
-	color: #6B3711;
+	color: #B70C0E;
 }
 
 .titulis{
@@ -73,6 +123,8 @@ nav-item:focus{
 	font-size: 65px;
 	margin-top: 1.5%;
 	margin-bottom: 1.5%;
+	background-image: url("imagenes/positsO.png");
+	background-size: 100% 100%;
 }
 
 .apoya{
@@ -80,8 +132,13 @@ nav-item:focus{
 	font-size: 115px;
 	margin-top: 1%;
 	margin-bottom: 2%;
-	background-image: url("imagenes/positverde.png");
+	background-image: url("imagenes/POSITg2.png");
 	background-size: 100% 100%;
+}
+
+.btn-primary{
+	background-color: #AD8660;
+	border-color: #AD8660;
 }
 
 .card-title{
@@ -101,14 +158,13 @@ nav-item:focus{
 	font-size: 115px;
 	margin-top: 1%;
 	margin-bottom: 2%;
-	background-image: url("imagenes/positverde.png");
+	background-image: url("imagenes/POSITg2.png");
 	background-size: 100% 100%;
 }
 
 /* editar esto prq queda muy en negrita. Tal vez usar fuente creada o dejar fuente general !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .preg{
 	font-family: "FuentePropiaMultimedia Regular";
-	font-weight: bold;
 	font-size: 65px;
 }
 
@@ -130,12 +186,6 @@ nav-item:focus{
 .mainBody{
  padding-top: 1%;
  padding-bottom: 4%;
-}
-
-
-.footer{
-    text-align: center;
-    background-color: white;
 }
 
 .form{
@@ -162,6 +212,7 @@ nav-item:focus{
 }
 
 .footer{
+	text-align: center;
 	font-family: "FuentePropiaMultimedia Regular";
 	font-size: 20px;
 	background-color: #EEE3D8;
