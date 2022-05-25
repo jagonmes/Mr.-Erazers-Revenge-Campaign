@@ -42,13 +42,13 @@
 	background-image: url("imagenes/lineas (3).png");
 	background-color: white;
 	max-width: 1300;
-    font-size: 200%;
+    font-size: 150%;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: justify;
 }
-h1{font-size: 180%;}
-h2{font-size: 130%;}
+h1{font-size: 150%;}
+h2{font-size: 120%;}
 
 .nav-item{
 	font-family: "FuentePropiaMultimedia Regular";
@@ -165,13 +165,13 @@ nav-item:focus{
 /* editar esto prq queda muy en negrita. Tal vez usar fuente creada o dejar fuente general !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .preg{
 	font-family: "FuentePropiaMultimedia Regular";
-	font-size: 65px;
+	font-size: 35px;
 }
 
 .num{
 	font-family: "Fuentepropiamultimedianums Regular";
 	font-weight: bold;
-	font-size: 65px;
+	font-size: 35px;
 }
 
 .banner{
@@ -214,6 +214,6 @@ nav-item:focus{
 .footer{
 	text-align: center;
 	font-family: "FuentePropiaMultimedia Regular";
-	font-size: 20px;
+	font-size: 65%;
 	background-color: #EEE3D8;
 }
